@@ -1,0 +1,26 @@
+services:
+  redis_ornek.api:
+    image: redisornek.api
+    container_name: redisornek.api-container
+    build:
+      context: .
+      dockerfile: redis_ornek.API/Dockerfile
+    ports:
+      - "5000:80"
+    depends_on:
+      - redis_cache
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_HTTP_PORTS=80
+      - CacheOptions__Url=redis_cache:6379
+
+  redis_cache:
+    image: redis
+    container_name: redis-container
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+
+volumes:
+  redis_data:

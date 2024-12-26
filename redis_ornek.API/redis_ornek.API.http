@@ -1,0 +1,6 @@
+@redis_ornek.API_HostAddress = http://localhost:5103
+
+GET {{redis_ornek.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

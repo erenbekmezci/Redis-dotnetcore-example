@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "redis_ornek.API", "redis_ornek.API\redis_ornek.API.csproj", "{F30C4E95-8686-4E96-82A3-2DA1FA1E5978}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "redis_ornek.Cache", "redis_ornek.Cache\redis_ornek.Cache.csproj", "{69664A5B-EABB-4BDB-840D-97B9A78BAD69}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{07E18CD8-4CC0-46F8-9FA2-63F55C47F3E9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F30C4E95-8686-4E96-82A3-2DA1FA1E5978}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F30C4E95-8686-4E96-82A3-2DA1FA1E5978}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F30C4E95-8686-4E96-82A3-2DA1FA1E5978}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F30C4E95-8686-4E96-82A3-2DA1FA1E5978}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69664A5B-EABB-4BDB-840D-97B9A78BAD69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69664A5B-EABB-4BDB-840D-97B9A78BAD69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69664A5B-EABB-4BDB-840D-97B9A78BAD69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69664A5B-EABB-4BDB-840D-97B9A78BAD69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07E18CD8-4CC0-46F8-9FA2-63F55C47F3E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07E18CD8-4CC0-46F8-9FA2-63F55C47F3E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07E18CD8-4CC0-46F8-9FA2-63F55C47F3E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07E18CD8-4CC0-46F8-9FA2-63F55C47F3E9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D96C9F18-3FDB-4D60-B664-CB3282E1CA68}
+	EndGlobalSection
+EndGlobal
